@@ -1,0 +1,7 @@
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\PairProjects.csprojAssemblyReference.cache
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\PairProjects.csproj.CoreCompileInputs.cache
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
