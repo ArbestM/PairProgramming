@@ -5,3 +5,10 @@ C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\PairProjects.csp
 C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\PairProjects.csproj.CoreCompileInputs.cache
 C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\ElevenfiftyProjects\CSharpFundamentals\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\bin\Debug\ConsoleApp2.exe.config
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\bin\Debug\ConsoleApp2.exe
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\bin\Debug\ConsoleApp2.pdb
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\obj\Debug\PairProjects.csprojAssemblyReference.cache
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\obj\Debug\PairProjects.csproj.CoreCompileInputs.cache
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\obj\Debug\ConsoleApp2.exe
+C:\Users\New User\Desktop\ElevenfiftyProjects\CSharpFundamentals\Games\obj\Debug\ConsoleApp2.pdb

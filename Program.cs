@@ -191,8 +191,7 @@ namespace PairProjrcts
 		public static void gameTitle()
 		{
 			Console.WriteLine("Welcome To Our World");
-			Console.WriteLine("Press Enter To Get Your Credentials.");
-
+			Console.WriteLine("Please Press Enter To Continue.");
 			Console.ReadLine();
 			Console.Clear();
 			Credentials();
@@ -206,11 +205,11 @@ namespace PairProjrcts
 			string FirstName = "Admin";
 			string PassWord = "Admin";
 
-			Console.WriteLine("Enter Your first");
-			FirstName = Console.ReadLine();
-
+			Console.WriteLine("Enter Your FirstName");
+			FirstName= (Console.ReadLine();
 			Console.WriteLine("Enter Your PassWord");
 			PassWord = Console.ReadLine();
+			
 			Console.Clear();
 
 			if (FirstName == "Admin" && PassWord == "Admin")
@@ -219,9 +218,9 @@ namespace PairProjrcts
 			}
 			else if (FirstName != "Admin" && PassWord != "Admin")
 			{
-				Console.WriteLine("Please Enter the Valid Credetials");
+				Console.WriteLine("Please Enter Valid Credentials");
 
-				Console.WriteLine("Enter Your first");
+				Console.WriteLine("Enter Your FirstName");
 				FirstName = Console.ReadLine();
 				Console.WriteLine("Enter Your PassWord");
 				PassWord = Console.ReadLine();
@@ -232,7 +231,7 @@ namespace PairProjrcts
 			{
 				Console.WriteLine("Please Enter the Valid Password");
 
-				Console.WriteLine("Enter Your first");
+				Console.WriteLine("Enter Your FirstName");
 				FirstName = Console.ReadLine();
 				Console.WriteLine("Enter Your PassWord");
 				PassWord = Console.ReadLine();
@@ -243,7 +242,7 @@ namespace PairProjrcts
 			{
 				Console.WriteLine("Please Enter the Valid FirstName");
 
-				Console.WriteLine("Enter Your first");
+				Console.WriteLine("Enter Your FirstName");
 				FirstName = Console.ReadLine();
 				Console.WriteLine("Enter Your PassWord");
 				PassWord = Console.ReadLine();
@@ -266,10 +265,10 @@ namespace PairProjrcts
 			string choice;
 
 			Console.WriteLine("We recommend that you stay focus as you playing Please read before you type");
-			Console.WriteLine("Please the instructions to be succesful ");
+			Console.WriteLine("Follow the instructions to be succesful ");
 			Console.WriteLine("---------------------------------Please Select A Game To Start--------------------------------------------------");
-			Console.WriteLine("1.unscramble words");
-			Console.WriteLine("2. Tic Toc Toe");
+			Console.WriteLine("1. unscramble words");
+			Console.WriteLine("2. Tic Tac Toe");
 			choice = Console.ReadLine().ToLower();
 			Console.Clear();
 
@@ -285,7 +284,7 @@ namespace PairProjrcts
 
 				case "2":
 				case "Tic":
-				case "Toc":
+				case "Tac":
 				case "Toe":
 					{
 						ArnoldM();
@@ -296,7 +295,7 @@ namespace PairProjrcts
 					{
 
 						Console.WriteLine("Please Select Valid Option");
-						Console.WriteLine("press enter to continue.");
+						Console.WriteLine("Press Enter To Continue.");
 						Console.ReadLine();
 						First();
 						break;
@@ -442,9 +441,11 @@ namespace PairProjrcts
 			Console.WriteLine("Legal moves are from 1 to 9");
 			Console.WriteLine("To quit, enter move 0");
 			Console.WriteLine("Good luck");
+			Console.WriteLine("Press Enter\n"+
+				"Use Legal Numbers To Place You Fist Move");
 			Console.ReadLine();
 			Console.Clear();
-			youWon();
+			
 			
 			Program g = new Program();
 			int rslt = 0;
@@ -460,15 +461,13 @@ namespace PairProjrcts
 				rslt = g.evalGrid();
 				if (rslt == 1)
 				{
-					Console.WriteLine("Congratulations, you won!");
-					Console.ReadLine();
+					youWon();
 
 				}
 				count = g.countGrid();
 				if (count >= 9)
 				{
-					Console.WriteLine("Game is over");
-					Console.ReadLine();
+					gameofOver();
 					rslt = 1;
 
 				}
